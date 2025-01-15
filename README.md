@@ -22,7 +22,7 @@ If you love your generics, though, you should set them free. Shipping defines a 
 The other thing about ItemStacks that's strange to me is a deep and pervasive need for defensive copies. Because ItemStacks are mutable, when you receive an ItemStack for an API call or lift it from a container, you need to copy it out, otherwise the object that gave the stack to you might just change the count in *your* stack. This is undesirable. All of Shipping's key transfer primitives, including Resource, ResourceStack, and OptionalStack, are immutable records. Once you have them, they're your copies, and they can be safely serialized or used off-thread.
 
 
-Imagine if we were both mods, and we touched the same item, and our hands touched &U1F633;
+Imagine if we were both mods, and we touched the same item, and our hands touched 😳
 
 
 ## Usage
