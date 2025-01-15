@@ -1,8 +1,11 @@
 # Shipping
-![Mod icon](icon.png)
-(Icon by Aquaholic)
 
 Transfer and Logistics API
+
+![Mod icon](icon.png)<br>
+(Icon by Aquaholic)
+
+
 
 
 ## Motivations
