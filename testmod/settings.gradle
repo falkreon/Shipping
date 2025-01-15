@@ -9,4 +9,6 @@ pluginManagement {
 	}
 }
 
-rootProject.name = 'Shipping'
+rootProject.name = 'Handling'
+include ':Shipping'
+project(':Shipping').projectDir = file('../')

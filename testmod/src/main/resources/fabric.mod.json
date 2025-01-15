@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "handling",
+	"version": "${version}",
+	"name": "Handling",
+	"description": "A test-mod for Shipping",
+	"authors": [
+		"Falkreon"
+	],
+	"contact": {
+		"homepage": "https://github.com/falkreon/Shipping",
+		"sources": "https://github.com/falkreon/Shipping"
+	},
+	"license": "MIT",
+	"icon": "assets/handling/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"blue.endless.handling.Handling"
+		],
+		"client": [
+			"blue.endless.handling.client.HandlingClient"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"shipping": "*"
+	}
+}

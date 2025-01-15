@@ -1,41 +1,36 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "shipping",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Shipping",
+	"description": "A transfer and logistics API which helps minecraft mods work together more closely",
 	"authors": [
-		"Me!"
+		"Falkreon"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/falkreon/Shipping",
+		"sources": "https://github.com/falkreon/Shipping"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT\n\nUsage of this mod is subject to the following additional terms and conditions:\nTrans rights are human rights",
+	"icon": "assets/shipping/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
-		],
-		"client": [
-			"com.example.ExampleModClient"
+			"blue.endless.shipping.ShippingMod"
 		]
 	},
-	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.16.2",
 		"minecraft": "~1.21.1",
-		"java": ">=21",
-		"fabric-api": "*"
+		"java": ">=21"
 	},
-	"suggests": {
-		"another-mod": "*"
+	
+	"custom": {
+		"modmenu": {
+			"badges": [ "library" ],
+			"update_checker": false
+		}
 	}
+	
 }
